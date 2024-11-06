@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    //añadido para que funcione el env aunque no lo entiendo
+    "types": ["vite/client"]
   },
   "include": [
     "src"
